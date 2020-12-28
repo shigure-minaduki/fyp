@@ -5,7 +5,7 @@
         <div class="col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    HKBU
+                    HKBU Online Exam System
                 </div>
 
                 <div class="card-body">
