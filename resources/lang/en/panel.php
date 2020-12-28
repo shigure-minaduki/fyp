@@ -1,5 +1,5 @@
 <?php
 
 return [
-    'site_title' => 'Test',
+    'site_title' => 'HKBU Online Exam System',
 ];

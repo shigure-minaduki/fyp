@@ -15,7 +15,7 @@
                         </div>
                     @endif
 
-                    You are logged in! Heroku
+                    You are in the Home Page of the system.
                 </div>
             </div>
         </div>
