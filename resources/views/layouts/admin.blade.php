@@ -201,6 +201,12 @@
 
     </script>
     @yield('scripts')
+
+    <div class="container">
+      <div class="col-md-offset-1 col-md-10">
+        @include('layouts._footer')
+      </div>
+    </div>
 </body>
 
 </html>

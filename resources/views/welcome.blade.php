@@ -86,14 +86,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <a href="{{ route('client.test') }}">HKBU Online System</a>
+                    <a href="{{ route('client.test') }}">HKBU Online Exam System</a>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Help</a>
-                    <a href="https://laracasts.com">About</a>
+                    <a href="">Help</a>
+                    <a href="">About</a>
                 </div>
             </div>
+
         </div>
     </body>
 </html>
