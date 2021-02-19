@@ -1,6 +1,7 @@
 @extends('layouts.client')
 
 @section('content')
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -19,6 +20,22 @@
                     @endif
 
                     You are logged in!
+                    <br>
+                    <p>The time now is 
+                      <script>
+                        document.write(new Date().toLocaleDateString());
+                      </script>
+                      <span id="datetime"></span></p>
+                      <script>
+                      var dt = new Date();
+                      document.getElementById("datetime").innerHTML = dt.toLocaleTimeString('en-GB');
+                      </script>
+                    </p>
+
+
+                    Start time:
+                    <br>
+                    <a href="{{ route('client.test') }}">Test 1</a>
                 </div>
             </div>
         </div>
