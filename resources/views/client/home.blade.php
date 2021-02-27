@@ -21,7 +21,7 @@
 
                     You are logged in!
                     <br>
-                    <p>The time now is 
+                    <p>The time now is
                       <script>
                         document.write(new Date().toLocaleDateString());
                       </script>
@@ -33,9 +33,15 @@
                     </p>
 
 
-                    Start time:
+                    Test 1 Start time:
                     <br>
-                    <a href="{{ route('client.test') }}">Test 1</a>
+                    <a href="{{ route('client.test') }}">Start Test 1</a>
+                    <br>
+                    <br>
+                    Test 2 Start time:
+                    <br>
+                    <a href="{{ route('client.test') }}">Start Test 2</a>
+                    <br>
                 </div>
             </div>
         </div>
