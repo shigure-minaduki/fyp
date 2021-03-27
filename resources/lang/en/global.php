@@ -25,7 +25,7 @@ return [
     'month'                                => 'Month',
     'no'                                   => 'No',
     'pleaseSelect'                         => 'Please select',
-    'register'                             => 'Register',
+    'register'                             => '',//"Register" register changed
     'remember_me'                          => 'Remember me',
     'reset_password'                       => 'Reset Password',
     'send_password'                        => 'Send Password Reset Link',

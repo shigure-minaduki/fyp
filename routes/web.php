@@ -47,4 +47,7 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
     // Results
     Route::delete('results/destroy', 'ResultsController@massDestroy')->name('results.massDestroy');
     Route::resource('results', 'ResultsController');
+
+    // Calendar
+    
 });
