@@ -32,15 +32,8 @@
                       </script>
                     </p>
 
-
-                    Test 1 Start time: 2021/04/15 12:00:00
+                    <a href="{{ route('client.test') }}">Start Test</a>
                     <br>
-                    <a href="{{ route('client.test') }}">Start COMP0001</a>
-                    <br>
-                    <br>
-                    Test 2 Start time: 2021/05/01 15:00:00
-                    <br>
-                    <a href="{{ route('client.test') }}" disabled="disabled">Start COMP0002</a>
                     <br>
                 </div>
             </div>
